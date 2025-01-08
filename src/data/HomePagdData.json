@@ -3,22 +3,28 @@
     "imgUrl": "/images/heroImg.png",
     "name": "Muhammad Zawar Hussain",
     "heading": "Hey! I’m Zawar",
-    "typingText": ["I'm a Full Stack Developer", 1500, "I'm a Mobile App Developer", 1500],
+    "typingText": [
+      "I'm a Full Stack Developer",
+      1500,
+      "I'm a Mobile App Developer",
+      1500
+    ],
     "description": "I'm a skilled Full Stack Developer and Mobile App Developer with a passion for crafting innovative and user-friendly digital solutions. With expertise in React, React Native, Node.js, and Firebase, I bring ideas to life with seamless functionality and polished designs. Let's build something amazing together!",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
   "socialBtns": [
-    {
-      "icon": "fa-brands:facebook-f",
-      "iconBgClass": "facebook",
-      "href": "/"
-    },
-    { "icon": "fa-brands:dribbble", "iconBgClass": "dribbble", "href": "/" },
+    
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
-      "href": "/"
+      "href": "https://www.linkedin.com/in/muhammad-zawar-hussain-aa89a9249/"
+    },
+    { "icon": "fa-brands:github", "iconBgClass": "github", "href": "https://github.com/zzawarhussain" },
+    {
+      "icon": "fa-brands:facebook-f",
+      "iconBgClass": "facebook",
+      "href": "https://www.facebook.com/muhammadzawar.hussain.1?mibextid=ZbWKwL"
     }
   ],
   "brands": [
@@ -66,16 +72,16 @@
     "description": "I am a dedicated Full Stack Developer and Mobile App Developer with a strong background in building responsive web and mobile applications. With over a year of professional experience, I specialize in technologies like React, React Native, Node.js, and Firebase. My focus is on creating intuitive, scalable, and efficient solutions that meet user needs and business goals. When I’m not coding, I enjoy exploring new tech trends and sharpening my skills to stay ahead in the industry.",
     "funfacts": [
       {
-        "title": "Google Review",
-        "number": 280
+        "title": "Total Projects",
+        "number": 10
       },
       {
         "title": "Years Experience",
-        "number": 15
+        "number": 2
       },
       {
         "title": "Awward Winning",
-        "number": 49
+        "number": 4
       }
     ],
     "btnText": "Get in touch",
@@ -92,13 +98,12 @@
         "title": "Mobile Application",
         "subTitle": "Native App, Android + iOS",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Bull's Eye IView App",
+          "description": "A Mobile Application in React Native designed for endoscopy purposes. The app is integrated with a camera, such as the AMB82, allowing medical professionals to capture high-quality images and videos of patients during treatment. Additionally, the app provides features for entering patient data and bios, streamlining the documentation process in medical settings. It also ensures secure data storage and easy retrieval, improving efficiency and accuracy in patient care workflows.",
+          "type": "Mobile Application",
+          "langages": "React Native, JavaScript",
+          "platform": "Android, iOS",
+          "country": "Pakistan"
         }
       },
       {
@@ -106,69 +111,51 @@
         "title": "Mobile Application",
         "subTitle": "Native App, Android + iOS",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Billboard App",
+          "description": "A Mobile Application for ordering customized billboards, enabling users to browse available billboard locations, select preferences, and place orders effortlessly. The app features an intuitive interface that allows users to customize billboard designs, choose display durations, and manage bookings. It also integrates secure payment options and real-time tracking for active advertisements. By streamlining the billboard advertising process, the app caters to businesses of all sizes, enhancing accessibility and efficiency.",
+          "type": "Mobile Application",
+          "langages": "React Native, JavaScript",
+          "platform": "Android, iOS",
+          "country": "Pakistan"
         }
       },
       {
         "thumbUrl": "/images/carDesign.png",
-        "title": "Dashboard Design",
-        "subTitle": "Web Design, App Design",
+        "title": "Web Application",
+        "subTitle": "Website, Modification System",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Car Design & Modification System",
+          "description": "A Car Design & Modification System using the MERN stack, allowing users to customize cars with different colors, rims, and lights. The system features a 360-degree car view for a detailed visualization of the modifications. Users can finalize their designs and book the car according to their preferences, making the process seamless and interactive.",
+          "type": "Web Application",
+          "langages": "JavaScript, React.js, Node.js, Express.js, MongoDB",
+          "platform": "Web",
+          "country": "Pakistan"
         }
       },
       {
         "thumbUrl": "/images/racebase.png",
-"title": "Mobile Application",
+        "title": "Mobile Application",
         "subTitle": "Native App, Android + iOS",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "RaceBase Logbook App",
+          "description": "A Mobile App which is regarded as one of the best drag racing logbook software in the world. RaceBase allows drag racing enthusiasts to track and analyze their racing performances with features like detailed logs, real-time updates, and race data storage. The app’s user-friendly interface and comprehensive tools help racers stay organized and improve their performance over time.",
+          "type": "Mobile Application",
+          "langages": "React Native, JavaScript",
+          "platform": "Android, iOS",
+          "country": "Pakistan"
         }
       },
       {
         "thumbUrl": "/images/holidayfare.png",
-"title": "Mobile Application",
+        "title": "Mobile Application",
         "subTitle": "Native App, Android + iOS",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-6.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "HolidayFares App",
+          "description": "A Mobile Application designed to provide a seamless hotel booking experience. The app enables users to browse an extensive list of hotels, view detailed descriptions, compare prices, and make reservations effortlessly. It includes features such as filtering options for location, price, and amenities, ensuring users find the perfect stay. With secure payment integration and real-time booking confirmation, the app offers a reliable and hassle-free solution for travelers. Its user-friendly design ensures smooth navigation and a convenient experience for all users.",
+          "type": "Mobile Application",
+          "langages": "React Native, JavaScript",
+          "platform": "Android, iOS",
+          "country": "Pakistan"
         }
       }
     ]
@@ -182,32 +169,30 @@
       {
         "imgUrl": "/images/webService.jpg",
         "title": "Website Development",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "subTitle": "Creating modern and Responsive Websites for your Business.",
         "icon": "bi:tv",
-        "ratings": 5
+        "ratings": 4.5
       },
       {
         "imgUrl": "/images/mobileService.jpg",
         "title": "Mobile App Development",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "subTitle": "Building User-Friendly and Feature-Rich Mobile Applications.",
         "icon": "bi:phone",
-        "ratings": 4.5
+        "ratings": 5
       },
       {
         "imgUrl": "/images/ecommerceService.jpg",
         "title": "Ecommerce Services",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "subTitle": "Delivering end-to-end solutions for seamless online shopping experiences.",
         "icon": "bi:cart",
-        "ratings": 5
+        "ratings": 4
       },
       {
         "imgUrl": "/images/apiService.jpg",
         "title": "Backend API Integration",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "subTitle": "Ensuring robust and efficient backend API integrations for your applications.",
         "icon": "bi:code-square",
-
-        
-        "ratings": 5
+        "ratings": 4
       }
     ]
   },
@@ -222,24 +207,24 @@
         "company": "Brown Tech Int. | ONSITE",
         "duration": "JUN 2024 - PRESENT",
         "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyTitle": "Responsibilities",
+        "companyDescription": "As a React Native Developer, I played a pivotal role in developing real-time, cross-platform mobile applications, prioritizing optimal performance and scalability. Collaborating closely with the design team, I created intuitive and responsive user interfaces using React Navigation and NativeBase, significantly enhancing user experience. Additionally, I integrated RESTful APIs, Firebase, and third-party services to ensure seamless data synchronization and effective backend communication, boosting overall app functionality and reliability."
       },
       {
         "designation": "Full Stack Developer",
         "company": "Bitlogics | ONSITE",
         "duration": "DEC 2023 - FEB 2024",
         "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyTitle": "Responsibilities",
+        "companyDescription": "In my role as a Full Stack Developer, I delivered tailored full-stack solutions for real-time React websites and React Native applications, aligning with client needs and driving operational efficiency. I implemented modern, responsive UI designs using Tailwind CSS, which resulted in increased user interaction and satisfaction. Additionally, I focused on optimizing application performance by applying thorough code optimization and refactoring practices, leading to faster load times and a smoother overall user experience."
       },
       {
         "designation": "Back-end Developer",
         "company": "SUI NORTHERN GAS PIPELINE LIMITED | ONSITE",
         "duration": "SEPT 2023 - DEC 2023",
         "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyTitle": "Responsibilities",
+        "companyDescription": "As a Backend Developer, I developed and maintained Node.js servers for both web and mobile applications using TypeScript and JavaScript, which helped streamline customer service operations. I also refactored legacy Java-based systems to Node.js, significantly improving system performance and reducing server load. In addition, I built and integrated RESTful APIs to ensure seamless data exchange across the organization’s web and mobile platforms, enhancing overall system reliability and efficiency."
       }
     ]
   },
@@ -272,12 +257,12 @@
   "contact": {
     "sectionHeading": {
       "title": "Let’s Discuss Your Project",
-      "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
+      "subTitle": "Always available for work if the right job comes along, Feel free to contact me."
     },
     "contactImg": "/images/contactpic.png",
     "contactInfo": [
       { "title": "Write an e-mail", "email": "zzawarhussain82@gmail.com" },
-      { "title": "write an e-mail", "tel": "+92 324 4807217" }
+      { "title": "Contact Number", "tel": "+92 324 4807217" }
     ]
   }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Swal from 'sweetalert2';
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
@@ -18,27 +18,52 @@ export default function ContactForm() {
     }));
   };
 
-  const onSubmit = async event => {
+  const onSubmit = async (event) => {
     event.preventDefault();
     setLoading(true);
+    
     const formData = new FormData(event.target);
-
-    formData.append('access_key', '6d7bc3fc-6190-43c5-8298-89ac5ef7494f');
-
+    formData.append('access_key', 'e94d9b8e-7604-4eab-acf5-805043afeaf3');
+  
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
-
-    const res = await fetch('https://api.web3forms.com/submit', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-      body: json,
-    }).then(res => res.json());
-
-    if (res.success) {
-      setFormData({ name: '', email: '', subject: '', message: '' });
+  
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: json,
+      }).then((res) => res.json());
+  
+      console.log('API Response:', res); // Debugging log
+  
+      if (res.success) {
+        setFormData({ name: '', email: '', subject: '', message: '' });
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent!',
+          text: 'Your message has been sent successfully.',
+          confirmButtonColor: '#0788ff',
+        });
+      } else {
+        console.error('API Error:', res); // Debugging log
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops!',
+          text: res.message || 'Something went wrong. Please try again later.',
+        });
+      }
+    } catch (error) {
+      console.error('Fetch Error:', error); // Debugging log
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: 'An error occurred. Please try again later.',
+      });
+    } finally {
       setLoading(false);
     }
   };

@@ -43,14 +43,14 @@ export default function Projects({ data }) {
             title={sectionHeading.title}
           />
           <div
-            className="full-width"
+            className="half-width"
             data-aos="fade"
             data-aos-duration="1200"
             data-aos-delay="400"
           >
             <Slider {...settings} className="slider-gap-24">
               {allProjects?.map((item, index) => (
-                <div key={index} style={{ width: '360px' }}>
+                <div key={index} style={{ width: '330px' }}>
                   <div className="project-box">
                     <div className="project-media">
                       <img src={item.thumbUrl} alt="Thumb" />

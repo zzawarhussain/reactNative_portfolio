@@ -35,7 +35,7 @@ export default function About({ data }) {
             data-aos-delay="500"
           >
             <div className="about-banner text-center">
-              <img src={imgSrc} alt="Thumb" style={{ borderRadius: '35px',borderTop: '1px solid #FFFFFF', borderLeft: '1px solid #FFFFFF' }}/>
+              <img src={imgSrc} alt="Thumb" style={{ borderRadius: '35px',borderBottom: '1px solid #FFFFFF', borderRight: '1px solid #FFFFFF' }}/>
             </div>
           </div>
           <div className="col-lg-6 col-xl-5 px-lg-5">
