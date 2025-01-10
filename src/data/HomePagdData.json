@@ -14,13 +14,16 @@
     "btnUrl": "contactus"
   },
   "socialBtns": [
-    
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
       "href": "https://www.linkedin.com/in/muhammad-zawar-hussain-aa89a9249/"
     },
-    { "icon": "fa-brands:github", "iconBgClass": "github", "href": "https://github.com/zzawarhussain" },
+    {
+      "icon": "fa-brands:github",
+      "iconBgClass": "github",
+      "href": "https://github.com/zzawarhussain"
+    },
     {
       "icon": "fa-brands:facebook-f",
       "iconBgClass": "facebook",
@@ -103,11 +106,11 @@
           "type": "Mobile Application",
           "langages": "React Native, JavaScript",
           "platform": "Android, iOS",
-          "country": "Pakistan"
+          "country": "USA"
         }
       },
       {
-        "thumbUrl": "/images/bullsEye.png",
+        "thumbUrl": "/images/billboard.png",
         "title": "Mobile Application",
         "subTitle": "Native App, Android + iOS",
         "details": {
@@ -142,7 +145,7 @@
           "type": "Mobile Application",
           "langages": "React Native, JavaScript",
           "platform": "Android, iOS",
-          "country": "Pakistan"
+          "country": "UK"
         }
       },
       {
@@ -155,6 +158,19 @@
           "type": "Mobile Application",
           "langages": "React Native, JavaScript",
           "platform": "Android, iOS",
+          "country": "UAE"
+        }
+      },
+      {
+        "thumbUrl": "/images/shopcart.png",
+        "title": "Web Application",
+        "subTitle": "Website, E-commerce Platform",
+        "details": {
+          "title": "ShopCart Shopping Store",
+          "description": "A Fully Functional Shopping Store using the MERN Stack, where users can browse various products, add items to their cart, and proceed to secure payments. The platform includes an integrated payment gateway and an admin panel for managing products, orders, and user data. This project offers a seamless shopping experience with a user-friendly interface and efficient backend functionality.",
+          "type": "Web Application",
+          "langages": "JavaScript, React.js, Node.js, Express.js, MongoDB",
+          "platform": "Web",
           "country": "Pakistan"
         }
       }
